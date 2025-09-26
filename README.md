@@ -101,16 +101,6 @@ Deliverable: A *live Power BI dashboard* that updates in real time.
 The dashboard uses:
 - *Simulated JSON API feed* (can be replaced with Azure Streaming Data).  
 
-*Sample JSON structure:*
-```json
-{
-  "time": "2025-09-26T10:30:00Z",
-  "temperature": 28.5,
-  "visitors": 120,
-  "sales": 45,
-  "date": "2025-09-26"
-}
-connect the dgfdyfvmm
 ⚙️ Setup Instructions
 Connect Power BI to the JSON streaming API.
 Import the data model with the above fields.
