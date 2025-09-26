@@ -1,5 +1,5 @@
 # Codtech_Internship
-#Task-1 : Sales Dashboard
+# Task 1: Sales Dashboard
 📌 Project Overview
 This project is part of the CodTech Internship Program.
 The task was to develop a Power BI Sales Dashboard to visualize sales performance using sample data.
