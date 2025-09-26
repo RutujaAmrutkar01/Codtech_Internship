@@ -110,7 +110,7 @@ The dashboard uses:
   "sales": 45,
   "date": "2025-09-26"
 }
-
+connect the dgfdyfvmm
 ⚙️ Setup Instructions
 Connect Power BI to the JSON streaming API.
 Import the data model with the above fields.
