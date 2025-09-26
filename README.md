@@ -120,6 +120,57 @@ API JSON Data
 This fulfills Task-3 of the CODTECH Internship program.
 
 
+ 🚀CODTECH Internship 
+Task 4 :Integration with Python or R in Power BI  
+
+ 🎯 Objective  
+Use *Python or R scripts* within Power BI to perform advanced *data analysis* and *visualizations*.  
+Deliverable: A *Power BI report* showcasing the integration of Python or R.  
+
+📊 Dataset Details  
+The dataset used contains the following fields:  
+- 📅 *Date*  
+- 🌍 *Region*  
+- 💰 *Sales*  
+- 📦 *Product*  
+- 🔢 *Quantity*  
+- 🆔 *Customer ID*  
+
+⚙️ Steps Performed  
+1. Imported dataset into Power BI.  
+2. Enabled *Python / R script visuals* inside Power BI.  
+3. Used Python/R scripts for:  
+   - Advanced statistical analysis  
+   - Region-wise sales distribution  
+   - Product-wise performance insights  
+   - Customer-level sales patterns  
+4. Integrated the results into *interactive Power BI dashboards*.  
+
+ 🔗 Example Python Script in Power BI  
+python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load dataset from Power BI
+dataset = pandas.DataFrame(dataset)
+
+# Plot sales trend by region
+region_sales = dataset.groupby("Region")["Sales"].sum()
+
+plt.bar(region_sales.index, region_sales.values)
+plt.xlabel("Region")
+plt.ylabel("Total Sales")
+plt.title("Sales by Region")
+plt.show()
+
+📌 Deliverable
+A Power BI report that:
+Uses Python or R scripts
+Provides visual insights on sales, region, products, and customers
+Demonstrates advanced data analysis techniques
+
+
+
 
 
 
