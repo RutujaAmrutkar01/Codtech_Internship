@@ -1,1 +1,48 @@
+# CODTECH Internship - Task 3  
+## Real-Time Dashboard
+📌 Task Objective
+Set up a *real-time dashboard* using streaming data (e.g., from Azure or a simulated API feed).  
+Deliverable: A *live Power BI dashboard* that updates in real time.  
+ 
+📊 Features
+- Real-time data visualization in *Power BI*  
+- Data fields included:
+  - ⏰ *Time*  
+  - 🌡️ *Temperature*  
+  - 👥 *Visitors*  
+  - 💰 *Sales*  
+  - 📦 *API JSON Data (with related date)*  
+- Auto-refreshing dashboard using streaming API  
+
+🔗 Data Source
+The dashboard uses:
+- *Simulated JSON API feed* (can be replaced with Azure Streaming Data).  
+
+*Sample JSON structure:*
+```json
+{
+  "time": "2025-09-26T10:30:00Z",
+  "temperature": 28.5,
+  "visitors": 120,
+  "sales": 45,
+  "date": "2025-09-26"
+}
+
+⚙️ Setup Instructions
+Connect Power BI to the JSON streaming API.
+Import the data model with the above fields.
+Enable real-time streaming for the dataset.
+Design dashboard visuals (line chart for temperature, bar chart for sales, card for visitors, etc.).
+Enable auto-refresh to keep the dashboard live.
+
+📌 Deliverable
+A Power BI real-time dashboard that displays and auto-updates with:
+Time
+Temperature
+Visitors
+Sales
+API JSON Data
+
+✅ Completion
+This fulfills Task-3 of the CODTECH Internship program.
 
