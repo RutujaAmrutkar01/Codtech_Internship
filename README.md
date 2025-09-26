@@ -82,8 +82,7 @@ Use the SQL queries above to perform analysis.
 
 
 
-# CODTECH Internship - Task 3  
-## Real-Time Dashboard
+#Task 3 - Real-Time Dashboard
 📌 Task Objective
 Set up a *real-time dashboard* using streaming data (e.g., from Azure or a simulated API feed).  
 Deliverable: A *live Power BI dashboard* that updates in real time.  
